@@ -11,13 +11,7 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("UsersDocker")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95a660a55b7976f74fbd93e0522c57f2e5b80c1c")]
-[assembly: System.Reflection.AssemblyProductAttribute("UsersDocker")]
-[assembly: System.Reflection.AssemblyTitleAttribute("UsersDocker")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartAttribute("Swashbuckle.AspNetCore.SwaggerGen")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
 
